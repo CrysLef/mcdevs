@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "/assets/images/hamburguer.png",
+    "category": "Burguers",
+    "link": "/"
+  },
+  {
+    "icon": "/assets/images/salad.png",
+    "category": "Saudável",
+    "link": "/"
+  },
+  {
+    "icon": "/assets/images/icecream.png",
+    "category": "Sobremesas",
+    "link": "/"
+  },
+  {
+    "icon": "/assets/images/refrigerantes.png",
+    "category": "Bebidas",
+    "link": "/"
+  },
+  {
+    "icon": "/assets/images/pizza.png",
+    "category": "Pizzas",
+    "link": "/"
+  },
+  {
+    "icon": "/assets/images/frenchfries.png",
+    "category": "Acompanhamentos",
+    "link": "/"
+  }
+]
