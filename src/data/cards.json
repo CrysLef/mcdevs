@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/cards/whatsapp.jpg",
+    "title": "Manda Zap",
+    "description": "Salve nosso número no whatsapp e faça seus pedidos através do whatsapp hoje mesmo.",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/cardapio/burguerJS.jpg",
+    "title": "Prato do dia",
+    "description": "O prato do dia é o nosso famoso BurguerJS, peça agora mesmo.",
+    "link": "/"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/cards/sundae.jpg",
+    "title": "Gelado como um DevSundae",
+    "description": "Bateu a fome nessa calor? Não deixe de pedir um DevSundae.",
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/cards/delivery.jpg",
+    "title": "Receba seu pedido em casa",
+    "description": "Peça através do nosso site e receba seu pedido em casa, sem preocupação, sem sair de casa, peça um McDev.",
+    "link": "/"
+  }
+]
