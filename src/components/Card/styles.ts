@@ -1,18 +1,40 @@
-import { styled } from "styles/theme";
+import { css, styled } from "styles/theme";
 
 
 export const Box = styled('div', {
-  maxWidth: 580,
-  maxHeight: 742,
-  textAlign: 'center',
+  width: 580,
+  height: 550,
   display: 'flex',
-  justifyContent: 'space-between',
   alignItems: 'center',
   flexDirection: 'column',
-  gap: 20,
-  border: '1px solid $gray6',
-  paddingBottom: 35,
-  borderRadius: 8,
   boxShadow: '5px 5px 15px -6px #000',
+  borderRadius: 8,
   my: 50
+})
+
+export const imageStyle = css({
+  borderTopRadius: 8,
+  objectFit: "cover"
+})
+
+export const Wrapper = styled('div', {
+  width: '100%',
+  display: 'flex',
+  alignItems: 'center',
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+  gap: 40,
+  height: '100%',
+  borderBottomRadius: 8,
+  py: 30
+})
+
+export const Content = styled('div', {
+  width: '100%',
+  textAlign: 'center',
+  px: 50,
+
+  '& p': {
+    marginTop: 10
+  }
 })
