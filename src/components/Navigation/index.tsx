@@ -37,19 +37,19 @@ export const Navigation = () => {
         </NavigationMenu.Item>
 
         <NavigationMenu.Item>
-          <Link href='#'>Promoções</Link>
+          <Link href='/promo'>Promoções</Link>
         </NavigationMenu.Item>
 
         <NavigationMenu.Item>
-          <Link href='#'>Quem somos</Link>
+          <Link href='/about'>Quem somos</Link>
         </NavigationMenu.Item>
 
         <NavigationMenu.Item>
-          <Link href='#'>Encontre seu McDev&apos;s</Link>
+          <Link href='/findmcdev'>Encontre seu McDev&apos;s</Link>
         </NavigationMenu.Item>
 
         <NavigationMenu.Item>
-          <Link href='#'>Trabalhe conosco</Link>
+          <Link href='/jobs'>Trabalhe conosco</Link>
         </NavigationMenu.Item>
 
         <NavigationMenu.Indicator />
