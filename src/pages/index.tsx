@@ -5,6 +5,7 @@ import { PageTitle } from 'components/Pagetitle';
 import { Carousel } from 'components/Carousel';
 import { Card } from 'components/Card';
 
+import cards from 'data/cards.json';
 
 const HomePage: NextPage = () => {
   return (
@@ -12,10 +13,9 @@ const HomePage: NextPage = () => {
       <PageTitle>Home - McDev&apos;s</PageTitle>
       <Carousel />
       <S.Content>
-        <Card image='https://via.placeholder.com/580x300' title='Gelado como um devsundae' description='Isso quer dizer que funcionou' to='' />
-        <Card image='https://via.placeholder.com/580x300' title='Gelado como um devsundae' description='Isso quer dizer que funcionou' to='' />
-        <Card image='https://via.placeholder.com/580x300' title='Gelado como um devsundae' description='Isso quer dizer que funcionou' to='' />
-        <Card image='https://via.placeholder.com/580x300' title='Gelado como um devsundae' description='Isso quer dizer que funcionou' to='' />
+        {cards.map(({ id, image, title, description, link}) => (
+          <Card key={id} image={image} title={title} description={description} to={link} />
+        ))}
       </S.Content>
     </>
   )
