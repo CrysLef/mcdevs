@@ -29,25 +29,25 @@ export const Carousel = () => {
         <SwiperSlide>
           <Slide>
             <PromoTextBanner title='Venha provar nossas novas sobremesas.'  side='top_left'/>
-            <Image src='/cardapio/dessert.jpg' alt='' layout='fill' objectFit='cover' />
+            <Image src='/assets/images/carousel/dessert.jpg' alt='' layout='fill' objectFit='cover' />
           </Slide>
         </SwiperSlide>
         <SwiperSlide>
           <Slide>
             <PromoTextBanner title='Tá esperando o que para provar nosso McDev&apos;s?' />
-            <Image src='/cardapio/hamburguer.jpg' alt='' layout='fill' objectFit='cover' />
+            <Image src='/assets/images/carousel/hamburguer.jpg' alt='' layout='fill' objectFit='cover' />
           </Slide>
         </SwiperSlide>
         <SwiperSlide>
           <Slide>
             <PromoTextBanner title='Temos opções para você que quer levar uma vida mais saudável, pratos veganos e muito mais.' side='bottom_left' />
-            <Image src='/cardapio/salad.jpg' alt='' layout='fill' objectFit='cover' />
+            <Image src='/assets/images/carousel/salad.jpg' alt='' layout='fill' objectFit='cover' />
           </Slide>
         </SwiperSlide>
         <SwiperSlide>
           <Slide>
             <PromoTextBanner title='Somente HOJE desconto de 80% nas pizzas de Lasanha de beringela com catupiry, ainda leve grátis um Dollynho 2L.'  side='bottom_left' />
-            <Image src='/cardapio/pizza.jpg' alt='' layout='fill' objectFit='cover' />
+            <Image src='/assets/images/carousel/pizza.jpg' alt='' layout='fill' objectFit='cover' />
           </Slide>
         </SwiperSlide>
       </CarouselSwiper>
