@@ -1,31 +1,31 @@
 [
   {
-    "icon": "/assets/images/hamburguer.png",
+    "icon": "/assets/icons/hamburguer.png",
     "category": "Burguers",
     "link": "/"
   },
   {
-    "icon": "/assets/images/salad.png",
+    "icon": "/assets/icons/salad.png",
     "category": "Saudável",
     "link": "/"
   },
   {
-    "icon": "/assets/images/icecream.png",
+    "icon": "/assets/icons/icecream.png",
     "category": "Sobremesas",
     "link": "/"
   },
   {
-    "icon": "/assets/images/refrigerantes.png",
+    "icon": "/assets/icons/refrigerantes.png",
     "category": "Bebidas",
     "link": "/"
   },
   {
-    "icon": "/assets/images/pizza.png",
+    "icon": "/assets/icons/pizza.png",
     "category": "Pizzas",
     "link": "/"
   },
   {
-    "icon": "/assets/images/frenchfries.png",
+    "icon": "/assets/icons/frenchfries.png",
     "category": "Acompanhamentos",
     "link": "/"
   }
