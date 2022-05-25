@@ -37,6 +37,14 @@ export const { getCssText, styled, globalCss, css } = createStitches({
     size: (value: any) => ({
       width: value,
       height: value,
+    }),
+    borderBottomRadius: (value: any) => ({
+      borderBottomRightRadius: value,
+      borderBottomLeftRadius: value
+    }),
+    borderTopRadius: (value: any) => ({
+      borderTopRightRadius: value,
+      borderTopLeftRadius: value
     })
   }
   
