@@ -8,6 +8,7 @@ export const PromoWrapper = styled('div', {
   alignItems: 'center',
   gap: 20,
   width: '35%',
+  zIndex: 999,
 
   variants: {
     side: {
