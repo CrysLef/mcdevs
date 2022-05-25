@@ -11,12 +11,6 @@ export const CarouselSwiper = styled(Swiper, {
 
 export const Slide = styled('div',{
   width: '100%',
-  maxHeight: 780,
-})
-
-export const Img = styled('img',{
-  width: '100%',
   height: 780,
-  objectFit: 'cover',
-  aspectRatio: 'auto',
+  position: 'relative'
 })
